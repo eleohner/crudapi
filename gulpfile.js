@@ -9,7 +9,7 @@ gulp.task('lint', () => {
 
 gulp.task('develop', () => {
     let stream = nodemon({
-        script: 'server.js',
+        script: 'app.js',
         ext: 'html js',
         ignore: ['ignored.js'],
         tasks: ['lint']
@@ -27,7 +27,7 @@ gulp.task('develop', () => {
 
 gulp.task('start', () => {
     nodemon({
-        script: 'server.js',
+        script: 'app.js',
         ext: 'js html',
         env: {'NODE_ENV': 'development'}
     });
