@@ -1,11 +1,11 @@
-#Basic CRUD REST API
+# Basic CRUD REST API
 
-Required Packages:
+## Required Packages:
     1. ExpressJS
     2. Mongoose
     3. Body-Parser
 
-Optional:
+### Optional:
     Set up Gulp with gulp-nodemon
         required packages (--save-dev): 
             1. gulp
@@ -13,7 +13,7 @@ Optional:
             3. gulp-jshint
             4. jshint
 
-Organization:
+## Organization:
     The application is built using an MVC pattern
         M = models and includes all the code for database models
         V = views or layout 
